@@ -1,0 +1,54 @@
+.header {
+  background-image: linear-gradient(#E8EBED, #F3F6F9);
+  height: 80px;
+}
+
+.header .title {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.product-image-container {
+  background-color: gray;
+  height: 10rem;
+}
+
+.product.card {
+  height: 22rem;
+}
+
+.product.card img {
+  height: 10rem;
+}
+
+.product-image {
+  height: 65%;
+  width: 65%;
+}
+
+.fit-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+input {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .product-image {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .product-image img{
+    border-radius: 3px;
+  }
+  .product-image-container {
+    height: 15rem;
+  }
+}
